@@ -21,6 +21,7 @@ input.onButtonPressed(Button.B, function () {
 let ABPressed = 0
 let Tcount = 0
 let Bcount = 0
+basic.pause(5000)
 Bcount = 0
 Tcount = 0
 ABPressed = 0
@@ -30,6 +31,3 @@ basic.pause(200)
 basic.showString("TRUMP")
 basic.showArrow(ArrowNames.East)
 basic.pause(200)
-basic.forever(function () {
-	
-})
